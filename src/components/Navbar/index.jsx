@@ -2,6 +2,7 @@ import classNames from "classnames";
 import styles from "./Navbar.module.scss";
 import { ReactComponent as Logo } from "assets/logo.svg";
 import { RiShoppingCart2Line, RiShoppingCart2Fill } from "react-icons/ri";
+import { Search } from "components/Search";
 
 export const Navbar = () => {
   const isLinkSelected = (link) => {
@@ -26,6 +27,9 @@ export const Navbar = () => {
           Página inicial
         </a>
       </div>
+      <div className={styles.busca}>
+        <Search />
+      </div>
       <div className={styles.icones}>
         <a href="/carrinho">
           {isLinkSelected("/carrinho") ? (
@@ -35,7 +39,6 @@ export const Navbar = () => {
           )}
         </a>
       </div>
-      <div className={styles.busca}></div>
     </nav>
   );
 };
