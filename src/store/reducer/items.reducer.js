@@ -35,7 +35,7 @@ const initialState = [
     favorito: false,
     preco: 285,
     id: uuid(),
-    categoria: "eletronicos",
+    categoria: "electronics",
   },
   {
     titulo: "AirPods com Estojo de Recarga",
@@ -45,7 +45,7 @@ const initialState = [
     favorito: false,
     preco: 900,
     id: uuid(),
-    categoria: "eletronicos",
+    categoria: "electronics",
   },
   {
     titulo: "Tablet Wi-Fi",
@@ -55,7 +55,7 @@ const initialState = [
     favorito: false,
     preco: 637,
     id: uuid(),
-    categoria: "eletronicos",
+    categoria: "electronics",
   },
   {
     titulo: "Assistente virtual com tela",
@@ -65,7 +65,7 @@ const initialState = [
     favorito: false,
     preco: 1600,
     id: uuid(),
-    categoria: "eletronicos",
+    categoria: "electronics",
   },
   {
     titulo: "Leitor de livros digitais",
@@ -75,7 +75,7 @@ const initialState = [
     favorito: false,
     preco: 447,
     id: uuid(),
-    categoria: "eletronicos",
+    categoria: "electronics",
   },
   {
     titulo: "Almofada de assento",
@@ -85,7 +85,7 @@ const initialState = [
     favorito: false,
     preco: 45.9,
     id: uuid(),
-    categoria: "automotivos",
+    categoria: "automotive",
   },
   {
     titulo: "Capa de volante de couro",
@@ -95,7 +95,7 @@ const initialState = [
     favorito: false,
     preco: 150,
     id: uuid(),
-    categoria: "automotivos",
+    categoria: "automotive",
   },
   {
     titulo: "Organizador lateral",
@@ -105,7 +105,7 @@ const initialState = [
     favorito: false,
     preco: 149.9,
     id: uuid(),
-    categoria: "automotivos",
+    categoria: "automotive",
   },
   {
     titulo: "Capa de volante de cristais",
@@ -115,7 +115,7 @@ const initialState = [
     favorito: false,
     preco: 290,
     id: uuid(),
-    categoria: "automotivos",
+    categoria: "automotive",
   },
   {
     titulo: "Suporte Veicular",
@@ -125,17 +125,17 @@ const initialState = [
     favorito: false,
     preco: 59.9,
     id: uuid(),
-    categoria: "automotivos",
+    categoria: "automotive",
   },
   {
     titulo: "Console",
     descricao:
-      "O console que está em pré-venda oferece novas possibilidades de jogabilidade que você nunca imaginou. Além disso, você também pode baixar jogos digitais, Experimente o carregamento extremamente rápido do SSD de 825GB com ultra-velocidade, uma imersão mais profunda com suporte à resposta tátil, gatilhos adaptáveis e áudio 3D.",
+      "O console que está em pré-venda oferece novas possibilidades de jogabilidade que você nunca imaginou. Além disso, você também pode baixar games digitais, Experimente o carregamento extremamente rápido do SSD de 825GB com ultra-velocidade, uma imersão mais profunda com suporte à resposta tátil, gatilhos adaptáveis e áudio 3D.",
     foto: console1,
     favorito: false,
     preco: 4300,
     id: uuid(),
-    categoria: "jogos",
+    categoria: "games",
   },
   {
     titulo: "Jogo para console",
@@ -145,7 +145,7 @@ const initialState = [
     favorito: false,
     preco: 299.9,
     id: uuid(),
-    categoria: "jogos",
+    categoria: "games",
   },
   {
     titulo: "Console",
@@ -155,7 +155,7 @@ const initialState = [
     favorito: false,
     preco: 4349,
     id: uuid(),
-    categoria: "jogos",
+    categoria: "games",
   },
   {
     titulo: "Controle joystick sem fio",
@@ -165,7 +165,7 @@ const initialState = [
     favorito: false,
     preco: 279,
     id: uuid(),
-    categoria: "jogos",
+    categoria: "games",
   },
   {
     titulo: "Jogo para console",
@@ -175,7 +175,7 @@ const initialState = [
     favorito: false,
     preco: 349.9,
     id: uuid(),
-    categoria: "jogos",
+    categoria: "games",
   },
   {
     titulo: "Organizador de Mesa",
@@ -185,7 +185,7 @@ const initialState = [
     favorito: false,
     preco: 19.9,
     id: uuid(),
-    categoria: "escritorio",
+    categoria: "desk",
   },
   {
     titulo: "Caderno Inteligente",
@@ -195,7 +195,7 @@ const initialState = [
     favorito: false,
     preco: 285,
     id: uuid(),
-    categoria: "escritorio",
+    categoria: "desk",
   },
   {
     titulo: "Cadeira de Escritório",
@@ -205,7 +205,7 @@ const initialState = [
     favorito: false,
     preco: 629,
     id: uuid(),
-    categoria: "escritorio",
+    categoria: "desk",
   },
   {
     titulo: "Papel Sulfite A4 75g 500 folhas",
@@ -215,7 +215,7 @@ const initialState = [
     favorito: false,
     preco: 27.6,
     id: uuid(),
-    categoria: "escritorio",
+    categoria: "desk",
   },
   {
     titulo: "Arquivo Estreito com Furação",
@@ -225,7 +225,7 @@ const initialState = [
     favorito: false,
     preco: 44.9,
     id: uuid(),
-    categoria: "escritorio",
+    categoria: "desk",
   },
   {
     titulo: 'TV Smart 50"',
@@ -235,7 +235,7 @@ const initialState = [
     favorito: false,
     preco: 2600,
     id: uuid(),
-    categoria: "som",
+    categoria: "songAndImage",
   },
   {
     titulo: 'Smart TV 60" 4K UHD',
@@ -245,27 +245,27 @@ const initialState = [
     favorito: false,
     preco: 3359,
     id: uuid(),
-    categoria: "som",
+    categoria: "songAndImage",
   },
   {
-    titulo: "Caixa de Som",
+    titulo: "Caixa de som",
     descricao:
       "A caixa de som 710 à prova de respingos transforma seu próximo evento em uma verdadeira festa, show ou balada. Show de luzes único e colorido sincronizado com seu aparelho de celular. Botões minimalistas e intuitivos no painel superior e o aplicativo permitem criar experiências musicais e visuais de alto nível. Com luzes estroboscópicas piscantes personalizáveis e o som incrível do conjunto duplo de tweeters e woofers ricos em graves.",
     foto: caixaSom,
     favorito: false,
     preco: 5817.33,
     id: uuid(),
-    categoria: "som",
+    categoria: "songAndImage",
   },
   {
-    titulo: "Caixa de Som Bluetooth",
+    titulo: "Caixa de som Bluetooth",
     descricao:
       "Caixa de som oferece o ousado som com driver de longa excursão otimizado, tweeter separado e dois radiadores de graves. Até 20 horas de reprodução e um prático powerbank para manter carregados os dispositivos que fazem a festa a noite toda.",
     foto: caixaSomBluetooth,
     favorito: false,
     preco: 1199,
     id: uuid(),
-    categoria: "som",
+    categoria: "songAndImage",
   },
   {
     titulo: "Mini System com Função karaokê",
@@ -275,7 +275,7 @@ const initialState = [
     favorito: false,
     preco: 782.91,
     id: uuid(),
-    categoria: "som",
+    categoria: "songAndImage",
   },
 ];
 
